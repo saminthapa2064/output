@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box{
+    background:red;
+    width: 100px;
+    height: 100px;
+    transition: all linear;
+}
+
+#box.change{
+    background-color: green;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
